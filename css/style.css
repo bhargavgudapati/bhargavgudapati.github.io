@@ -1,0 +1,158 @@
+
+body {
+    background-color: grey;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    background: #add8e6;
+    padding: 8px 20px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    background: #add8e6;
+    padding: 8px 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.splash {
+    font-family:  "Noto Sans", sans-serif;
+    h1 {
+	color: #add8e6;
+	text-align: center;
+    }
+    img {
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    }
+    p {
+	background-color: #90ee90;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+    }
+    font-optical-sizing: auto;
+    font-weight: 14;
+    font-style: normal;
+    
+}
+
+hr {
+    border: 5px solid #333333;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: "Noto Sans", serif;
+    font-size: 2em;
+    color: #add8e6;
+    text-align: center;
+}
+
+p {
+    font-family: "Noto Sans", serif;
+    background: #bbbbbb;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    background: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    li {
+	background: #bbbbbb;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+    }
+}
+ 
+dl {
+    font-family: "Anton SC", serif;
+    font-size: 1.2em;
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    justify-items: center;
+    background: #bbbbbb;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #0090c0;
+}
+
+a:hover {
+    color: #8d98ff;
+}
+
+a:visited {
+    color: #333333;
+}
+
+.three-col {
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    justify-items: center;
+    background: #90ee90;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    div {
+	h3 {
+	    text-align: center;
+	}
+	background: #bbbbbb;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 10px 10px #333333;
+    }
+    img {
+	border-radius: 30px;
+	display: block;
+	justify-content: center;
+	margin: auto;
+    }
+}
+
+.one-col {
+    form {
+	display: grid;
+	grid-template: 1fr 1fr 1fr / auto;
+	justify-items: center;
+	textarea {
+	    background-color: #333333;
+	    border-radius: 10px;
+	    color: #ffffff;
+	    padding: 5px;
+	    margin-bottom: 10px;
+	}
+	input {
+	    background-color: #333333;
+	    border-radius: 10px;
+	    color: #ffffff;
+	    padding: 5px;
+	    margin-bottom: 10px;
+	}
+    }
+    text-align: center;
+    margin: 10px;
+    background: #bbbbbb;
+    border-radius: 10px;
+    padding: 10px;
+}
